@@ -4,9 +4,7 @@ body{
 	font-family: arial;
 	background: #CBCAA9;
 }
-a{
-	text-decoration: none;
-}
+
 
 .estilo {
 	box-shadow: 1em 0em 2em rgba(0, 0, 0, 0.34);
@@ -25,17 +23,28 @@ a{
 	display:flex;
 	justify-content: center;
 }
-.a{
+
+.ativo{
+	background-color: #C7C7C7;
+}
+
+.ativo:hover{
+	background-color: #3F3F3F;
+	color:white;
+}
+
+a{
 	font-size: 1.8em;
 	width:5em;
 	color: black;
 	border: solid 1px #6868CD;
 	background-color: #8383F8;
 	padding: 0em 2%;
+	text-decoration: none;
 	transition: 0.5s;
 }
 
-.a:hover{
+a:hover{
 	font-size: 2em;
 	width:5em;
 	font-size: 1.8em;
